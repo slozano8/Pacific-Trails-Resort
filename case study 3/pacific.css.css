@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Pacific Trails Resort</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="pacific.css">
+
+
+#wrapper{background-color:#90C7E3;
+         width: 80%;
+         margin-left: auto;
+         margin-right:auto;
+	 min-width: 960px;
+	 max-width: 2048px;
+	 box-shadow:3px 2px 5px #333333;}
+
+.Resort {color:#1976D2;
+         font-size: 1.2em;}
+       
+header {background-color: #002171;
+        color: #FFFFFF; 
+        font-family: georgia,sans-serif;}
+	
+		
+nav {background-color: #BBDEFB;
+    font-family:bold;}
+
+
+
+  body { background-color: #FFFFFF; 
+         color: #666666; 
+         font-family: arial, sans-serif;}
+		 
+	  h1  {line-height:200%}
+
+	  h2  {background-color: #1976D2;
+              font-family: georgia}
+
+	  h3  {font-family:georgia;}
+
+	  dt {text-color:#002171;
+              bold, font-family;}
+	 
+	 .con {margin-left:auto; 
+               margin-right:auto;
+               width:80%}
+	 
+main  {display:block;}
+	 
+
+
+  footer {font-size: .70em;
+           font-style: italic;
+		   padding:1em;}
+
+
+
+ 

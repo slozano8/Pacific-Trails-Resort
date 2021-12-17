@@ -1,0 +1,44 @@
+
+#wrapper{background-color:90C7E3;
+         width: 80%;
+         margin-left: auto;
+         margin-right:auto;
+	 min-width: 960px;
+	 max-width: 2048px;
+	 box-shadow:3px 2px 5px #333333;}
+       
+header {background-color: #002171;
+        color: #FFFFFF; 
+        font-family: georgia;
+	background-repeat: no-repeat;
+	text-align: center;}
+		
+nav {background-color: #BBDEFB; font-family:bold;}
+
+<body>
+<style>
+  body { background-color: #FFFFFF; 
+         color: #666666; font-family: arial;}
+		 
+	  h1  {
+               text-align:center;
+	       padding-bottom: .5em;}
+
+	  h2  {color: #1976D2;
+               font-family: georgia}
+	  h3  {font-family:georgia;}
+
+	  dt {color:#002171; family-font:bold;}
+
+	 .Resort {color:#1976D2; 
+                  font-size:1.2em;}
+
+	 #con {margin-left:auto; margin-right:auto;width:80%}
+</style>
+</body> 
+<footer>
+  footer {font-size: .70em;
+           font-style: italic;
+		   padding:1em;}
+</footer>
+

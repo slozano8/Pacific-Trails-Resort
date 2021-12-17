@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Azaela Manor Bed & Breakfast;Reservations</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="azaela.css">
+</head>
+<body>
+
+<div id="wrapper">
+<header><h1>Pacific Trails Resort</h1></header>
+<nav>
+<a href="index.html">Home</a>
+<a href="rooms.html">Rooms</a>
+<a href="package.html">Package and Rates</a>
+<a href="activities.html">Activities</a>
+<a href="reservations.html">Reservations</a>
+</nav>
+<div id="Reservations"></div> 
+  <main>
+  <h2> Reservations at Azaela Manor.</h2>
+  <h3>Contact Us Today!</h3>↩
+  <p>Required fields are marked with an asterisk *</p>
+  <form method="post" action="http://webdevbasics.net/scripts/pacific.php">
+  <label for="myFName">*First Name:</label>
+  <input type="text" name="myFName" id="myFName" required="required">
+
+                <label for="myLName">*Last Name:</label>
+                <input type="text" name="myLName" id="myLName" required="required">
+
+                <label for="myEmail">*E-mail:</label>
+                <input type="email" name="myEmail" id="myEmail" required="required" size="35">
+
+                <label for="myPhone">Phone:</label>
+                <input type="tel" name="myPhone" id="myPhone" maxlength="12">
+
+                <label for="arrivalDate">Expected Arrival Date:</label>
+                <input type="date" name="arrivalDate" id="arrivalDate">
+
+                <label for="numberofNights">Nights:</label>
+                <input type="number" name="numberofNights" id="numberofNights" min="1" max="14">
+
+                <label for="myComments">*Comments:</label>
+                <textarea name="myComments" id="myComments" rows="2" cols="30" required="required"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+
+
+            <div id="contact">
+                <span class="resort">Pacific Trails Resort</span> <br/> 12010 Pacific Trails Road<br/> Zephyr, CA 95555<br/>
+                <br/>
+                <a id="mobile" href="tel:888-555-5555">888-555-5555</a> <span id="desktop">888-555-5555</span>
+                <br/>
+              </div>
+
+        </main>
+        <div>
+            <footer>Copyright &copy;&nbsp;2021 &nbsp; Pacific Trails Resort;
+                <a href="slozano8@ivytech.edu">slozano8@ivytech.com</a></footer>
+        </div>
+		 </div>
+		</body>
+</html>
